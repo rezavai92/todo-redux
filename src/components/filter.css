@@ -1,0 +1,33 @@
+.filter{
+
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr ;
+    justify-content: space-between;
+    grid-gap:2%;
+    max-width:100%;
+    text-align: left;
+    margin-top: 2%;
+
+}
+
+.filterbox-single-flex{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+@media screen and (max-width:545px) {
+
+    .filterbox-single-flex{
+        flex-direction: column;
+        
+        text-align: center;
+        
+    }
+    .filterbox-single-flex div{
+        margin: 2%;
+    }
+}

@@ -1,0 +1,17 @@
+.filter-box{
+
+
+    
+
+    text-align: left;
+    cursor: pointer;
+    margin:0% 1%;
+    
+}
+
+.filter-box button{
+
+    border-radius: 10%;
+    background-color: white;
+    border: 0.1rem solid silver;
+}

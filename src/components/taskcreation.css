@@ -1,0 +1,62 @@
+
+.taskCreation{
+
+    position: relative;
+    
+}
+.input{
+
+
+    width: 60%;
+    height: 8vh;
+    background-color: white;
+    margin: 2% 20% 0% 20%;
+    border: 1px solid silver;
+    text-align: center;
+    
+}
+
+::-webkit-input-placeholder {
+
+
+    font-style: italic;
+    font-size: 1.5rem;
+   text-align: center;
+ }
+ :-moz-placeholder {
+    font-style: italic;  
+ }
+ ::-moz-placeholder {
+    font-style: italic;  
+ }
+ :-ms-input-placeholder {  
+    font-style: italic; 
+ }
+
+ .down{
+
+    position: absolute;
+    top: 41%;
+    left: 20.8%;
+    font-size: 1.8rem;
+    color: silver;
+
+ }
+
+ @media screen and (max-width:768px){
+
+   .down{
+      position: absolute;
+      top:27%;
+      left:22%;
+      font-size:1.5rem ;
+
+   }
+
+   ::-webkit-input-placeholder {
+
+      text-align: center;
+      font-style: italic;
+      font-size: 1rem;
+   }
+ }

@@ -1,0 +1,10 @@
+.clearComp{
+
+    cursor: pointer;
+    text-align: right;
+    
+}
+.clearComp:hover{
+
+    text-decoration: underline;
+}
